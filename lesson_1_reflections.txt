@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It helped to focus my attention on just a few lines of code where the application found the difference, rather than having to look through and compare the entire file myself.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If there is ever an unexpected bug that appears between versions, I can do a comparison to a previously working file and find any differences quickly.
+
+What do you thnk are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually choosing when to create a commit saves versions of your code that are logical, whereas saving automatically might save your progress illogically preventing you from meaningfully compare versions later should a bug arise.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is a dedicated tool made specifically for programming version control and takes into account that multiple files would need to be save together for a program to work. Google Docs meanwhile, is agnostic to the types of documents you upload, it is intended as a storage system for word processing and other office activities.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log provides a history of all the commits to a repository and git diff is used to compare two commits for differences between the files.
+
+How might using version control make you more confident to make changes that could break something?
+
+By having version control, you will have every confidence to make changes since you could always revert back to a previous version if anything goes wrong.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git for version controls of all my future projects.
