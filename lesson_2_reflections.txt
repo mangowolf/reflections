@@ -4,3 +4,23 @@ When you initialize a repository, it creates a new git respository. The folder y
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The working directory is the folder that you are currently in, whereas the staging area is simply an area where files have been designated to be committed to the git respository. The value it offers is that it allows Users to double check the files they wish to commit before confirming the commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Before committing the change to the repository, by viewing the changes in the staging area, you can view the files and perform functions on them to ensure that the files there are definitely the changes you want to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Situations where you want to add an experimental feature, or a big new change are situations where branches would help keep your changes organized. Branches are separate from the main code, and won't break your production code, since it is on it's own separate base.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams do just that, they help you visualize the branch structure by displaying how the branches are organized in relation to the master trunk.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that it brings the changes from one branch into the other, thereby merging the code with the changes on the separate branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git Automatic merging Pro - Less labor intensive, you don't have to read through every line of code to determine what to include and what not to include.
+Git Automatic merging Con - In the case where two or more team members changed the same line of code, you don't know who's code is correct. Automatic merging can possibly lead to some weird bugs getting introduced.
