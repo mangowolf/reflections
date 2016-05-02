@@ -1,1 +1,3 @@
 When would you want to create a remote respository rather than keeping all your work local?
+
+Three reasons you may want to create a remote respository, is for 1) Collaboration, 2) Use Github to host your site, or 3) Use it as cloud storage for your files.
