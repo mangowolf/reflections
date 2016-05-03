@@ -1,3 +1,14 @@
 When would you want to create a remote respository rather than keeping all your work local?
 
 Three reasons you may want to create a remote respository, is for 1) Collaboration, 2) Use Github to host your site, or 3) Use it as cloud storage for your files.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If you're collaborating with others, you may not be aware of the changes made in the remote respository, so you don't want to be surprised by changes to the remote repository on your local drive. There could also be malicious code or activity, so you wouldn't want that on your computer.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are essentially clones, but only happen on GitHub, as they are performing the cloning on their servers instead of locally on yours. Clones create a complete copy of the respository. Branches are versions of the code that are outside of the master branch where your production code lies, it is used to code against without fear of breaking production code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit of having a copy of the last known state of the remote stored locally is so that it can be referenced later when you perform a diff.
