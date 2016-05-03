@@ -16,3 +16,7 @@ The benefit of having a copy of the last known state of the remote stored locall
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 There are other tools you can use to collaborate from other companies, just as MS Visual studio. Other less ideal collaborative ways include using a shared folder, but that could result in bad and confusing version control.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch rather than directly in the master when you want to incorporate changes made to master in your branch to make sure all the changes you're making on your branch don't conflict with updates in master.
