@@ -12,3 +12,7 @@ Forks are essentially clones, but only happen on GitHub, as they are performing 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit of having a copy of the last known state of the remote stored locally is so that it can be referenced later when you perform a diff.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+There are other tools you can use to collaborate from other companies, just as MS Visual studio. Other less ideal collaborative ways include using a shared folder, but that could result in bad and confusing version control.
